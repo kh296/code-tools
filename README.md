@@ -1,3 +1,20 @@
-# Code tools
+# code-tools
 
 Conda environment providing tools for formatting Python code.
+
+- [autopep8](https://github.com/hhatto/autopep8)
+```
+# -i : make changes to file in place.
+# -n : maximum line length.
+# -a : enable agressive (non-whitespace) changes; repeat to increase agression.
+autopep8 -i -n 80 -a -a <file>
+```
+- [black](https://black.readthedocs.io/)
+```
+# -l : maximum line length.
+black -l 80 <file_or_directory>
+```
+- [pylint](https://pylint.pycqa.org/)
+```
+pylint <module_or_package>
+```

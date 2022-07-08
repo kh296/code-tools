@@ -1,0 +1,9 @@
+name: code-tools
+dependencies:
+  - ipython
+  - pip
+  - python
+  - pip:
+    - autopep8
+    - black
+    - pylint
