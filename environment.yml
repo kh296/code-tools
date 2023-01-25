@@ -6,4 +6,5 @@ dependencies:
   - pip:
     - autopep8
     - black
+    - pygount
     - pylint
