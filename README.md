@@ -6,9 +6,9 @@ and for counting lines of code.
 - [autopep8](https://github.com/hhatto/autopep8)
 ```
 # -i : make changes to file in place.
-# -n : maximum line length.
+# --max-line-length : maximum line length.
 # -a : enable agressive (non-whitespace) changes; repeat to increase agression.
-autopep8 -i -n 80 -a -a <file>
+autopep8 -i --max-line-length 80 -a -a <file>
 ```
 - [black](https://black.readthedocs.io/)
 ```
