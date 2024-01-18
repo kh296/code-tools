@@ -1,6 +1,6 @@
 # code-tools
 
-Conda environment providing tools for formatting Python code,
+Conda environment providing tools for formatting and testing Python code,
 and for counting lines of code.
 
 - [autopep8](https://github.com/hhatto/autopep8)
@@ -23,4 +23,15 @@ pylint <module_or_package>
 - [pygount](https://pygount.readthedocs.io/)
 ```
 pygount --format=summary <file_or_directory>
+```
+
+- [pytest](https://docs.pytest.org/)
+```
+pytest [file_or_directory]
+```
+
+- [pytest-cov](https://pytest-cov.readthedocs.io/)
+(Used with `pytest`.)
+```
+pytest --cov=<path_to_package> <path_to_tests>
 ```

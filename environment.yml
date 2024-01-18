@@ -8,3 +8,5 @@ dependencies:
     - black
     - pygount
     - pylint
+    - pytest
+    - pytest-cov
