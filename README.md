@@ -1,7 +1,7 @@
 # code-tools
 
-Conda environment providing tools for formatting and testing Python code,
-and for counting lines of code.
+Conda environment providing tools for formatting, profiling,  and testing
+Python code, and for counting lines of code.
 
 - [autopep8](https://github.com/hhatto/autopep8)
 ```
@@ -34,4 +34,14 @@ pytest [file_or_directory]
 (Used with `pytest`.)
 ```
 pytest --cov=<path_to_package> <path_to_tests>
+```
+
+- [Python profilers](https://docs.python.org/3/library/profile.html)
+```
+python -m cProfile [-o output_file] <python_script>
+```
+
+- [SnakeViz](https://jiffyclub.github.io/snakeviz/)
+```
+snakeviz <cProfile_output_file>
 ```
